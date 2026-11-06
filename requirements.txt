@@ -1,0 +1,28 @@
+# Environment A: dataset preparation, classifiers, benchmark, inference
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.7.2
+lightgbm==4.7.0
+xgboost==3.2.0
+rdkit==2026.3.3
+
+# Environment B: Uni-Mol representations
+#   torch==2.10.0
+#   unimol-tools
+#   rdkit==2026.3.3
+
+# Environment C: NaFM representations
+#   torch==2.10.0
+#   torch-geometric==2.6.1
+#   rdkit==2026.3.3
+#   plus a local NaFM-Official checkout and its NaFM.ckpt
+
+# Environment D: MolFormer representations
+#   torch==2.4.1
+#   transformers
+#   rdkit==2026.3.3
+
+# Environment E: D-MPNN baseline
+#   chemprop==1.6.1
+#   torch==2.10.0

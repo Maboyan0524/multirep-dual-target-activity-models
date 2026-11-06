@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.DS_Store
+
+# data, features, trained models and results stay out of version control
+data/
+features/
+runs/
+*.npy
+*.ckpt
+*.pt
+*.tsv
+*.csv
+*.xlsx
+*.log
